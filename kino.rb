@@ -26,7 +26,7 @@ until chesen
   kinopoisk_link = "http://kinopoisk.ru/film/#{tr_tag.attributes["id"]}/"
   film_description = tr_tag.search("span[@class='gray_text']")[0].text
 
-  puts kino_title
+  puts "Название фильма: #{kino_title}"
   puts film_description
   puts "Рейтинг Кинопоиска: #{kinopoisk_rating}"
 
